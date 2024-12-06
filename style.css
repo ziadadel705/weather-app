@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+  }
+  
+  /* Header */
+  header {
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2b2b3c;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .sublogo{
+    margin: 5px;
+  }
+  
+  .logo i {
+    color: #4ec7f3;
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    font-weight: 600;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: ease-in 0.2s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #4ec7f3;
+    color: #1e1e2f;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-image: url(/images/banner.png);
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+  }
+  
+  .hero input {
+    padding: 10px 20px;
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+    border: none;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    background-color: #4ec7f3;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Weather Info */
+  .weather-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b2b3c;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .weather-day {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .weather-day i {
+    font-size: 3em;
+    margin: 10px 0;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 0.9em;
+  }
+
+
+  .day{
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .location{
+    margin-top: 10px;
+  }
+
+  .degree{
+    font-weight: 600;
+  }
+
+  small{
+    font-weight: 400;
+    color: #BFC1C8;
+  }
+
+  .custom{
+    color: #4ec7f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b2b3c;
+  }
+  
+  .subscribe {
+    margin-bottom: 10px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 20%;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    background-color: #4ec7f3;
+    border: none;
+  }
+  
+  .social-icons i {
+    font-size: 1.5em;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .social-icons i:hover {
+    color: #4ec7f3;
+  }
+  
